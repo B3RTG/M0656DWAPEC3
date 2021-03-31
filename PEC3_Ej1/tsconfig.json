@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "include": [ "*.ts" ],
+    "exclude": [
+        "node_modules"
+    ]
+}
+
+//"files": ["./first.ts"], no es necesario pq tenemos el include *.ts
