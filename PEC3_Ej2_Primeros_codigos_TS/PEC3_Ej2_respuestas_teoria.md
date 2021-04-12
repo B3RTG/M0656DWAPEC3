@@ -24,4 +24,5 @@ Esto es debído que a diferencia de javascript, ts tiene tipado de variables. Co
 - `let k: never = 4;` al tipo `never` no se le puede asignar un valor, el tipo `never` viene a indicar algo que no va a ocurrir nunca.
 - `let m = l * 2;` el valor l ha sido declarado como `unknown`. Podemos decir que es parecido al tipo `any` pero es mucho mas restrictivo y tendremos que hacer checkings antes de poder utilizar su valor. Todas las asignaciones son correctas, es decir podemos asignar cualquier tipo a una variable `unknown` pero no podremos hacerlo al revés.
 
-###  ¿Cuál es la diferencia entre una clase y una interface en TypeScript?
+### 4 ¿Cuál es la diferencia entre una clase y una interface en TypeScript?
+Podemos decir que un interface define un "contrato" que despues podran implementar otros. Los interfaces son "implementables" (implements) por otros tipos. Ademas, no podemos tener una instancia de un interface, sino que tendremos una instancia de otra entidad/objeto que implementa ese interface. Por otro lado, las clases son elementos con sus propiedades y metodos propios. Las clases no son "implementables" pero podemos "extenderlas" (extends). De un objeto si tendremos posibilidad de crear una nueva instancia, a diferencia de un interface.
