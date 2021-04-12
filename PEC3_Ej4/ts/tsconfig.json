@@ -3,11 +3,11 @@
         "target": "ES6",
         "removeComments": true,
         "preserveConstEnums": true,
-        "outFile": "./bundle.js",
+        //"outFile": "./bundle.js",
         "lib": [
             "ES2020",
             "dom"
-        ], "module": "AMD"
+        ]//, "module": "AMD"
     },
     "include": [ "*.ts" ],
     "exclude": [
